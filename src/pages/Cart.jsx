@@ -2,7 +2,7 @@ import Navbar from "../components/Navbar";
 import CartItem from "../components/CartItem";
 import CartSummary from "../components/CartSummary";
 import { useSelector } from "react-redux";
-import CartEmpty from "../components/cartEmpty";
+import CartEmpty from "../components/CartEmpty";
 
 const Cart = () => {
   const cartItems = useSelector((state) => state.cart.items);
